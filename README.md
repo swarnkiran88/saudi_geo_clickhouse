@@ -2,15 +2,18 @@
 
 Saudi Arabia polygon data is uploaded in this repository, it has District and City Polygon as regions are easiy available online.
 
-I have uploaded the sample how to create a table to geospatial data into clikchouse
-I believe it is hard to find the how to create table and insert query for CH, because i have found it difficult.
+I have uploaded SQL statment sample to create a table on clikchouse with polygon values.
 
-The poly column is loaded so that it can be used in execution of  pointInPolygon() CH function.
+I believe it is hard to find the how to create table and insert query into CH expecially Polygon values, because i have found it difficult to find.
 
-Data Loaded into this table is in format to represent the data in Apache superset deck.gl polygon, so feel free to change the gjson format as required. 
+--Details on SQL statment
+The poly column is loaded in order to execute pointInPolygon() CH function.
+
+Data Loaded into this table is in format which is used for Apache superset deck.gl polygon, so feel free to change the format as required. 
 
 Following link i refered 
 
 https://pachicohub.com/posts/clickhouse-geo-search/
 https://github.com/ClickHouse/ClickHouse/issues/9002
+https://github.com/homaily/Saudi-Arabia-Regions-Cities-and-Districts
 
