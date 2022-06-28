@@ -12,6 +12,7 @@ The poly column is loaded in order to execute pointInPolygon() CH function.
 Data Loaded into this table is in format which is used for Apache superset deck.gl polygon, so feel free to change the format as required. 
 
 --Clickhouse Query 
+
 CREATE
 ```
 CREATE TABLE test.sharepoint_city
