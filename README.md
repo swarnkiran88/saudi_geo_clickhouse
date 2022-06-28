@@ -15,7 +15,7 @@ Data Loaded into this table is in format which is used for Apache superset deck.
 
 CREATE
 ```
-CREATE TABLE test.sharepoint_city
+CREATE TABLE ksa_city
 (
 
     `id` Int,
